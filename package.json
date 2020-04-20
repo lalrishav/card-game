@@ -1,0 +1,27 @@
+{
+  "name": "card-game-bot",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.40.0",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.4",
+    "@types/node": "^13.11.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
